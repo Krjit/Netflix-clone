@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), 
+                url(assets/HomeBgImg.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    color: rgba(255, 255, 255, 0.667);
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: auto;
+    height: 100px;
+    padding: 30px 70px;
+}
+
+
+aside {
+    height: 800px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+aside .signin_box {
+    height: 600px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.716);
+    border-radius: 5px;
+    padding: 60px;
+}
+
+form .email_pass_div {
+    height: 60px;
+    background-color: rgb(56, 54, 54);
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}
+
+form .email_pass {
+    width: 100%;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    color: white;
+    background-color: rgb(56, 54, 54);
+}
+
+form .signin_div {
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+form #sign_btn{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    /* margin-top: 16px; */
+}
+
+form .form-help {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    margin-bottom: 40px;
+    font-size: small;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.576);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    height: 300px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.676);
+    display: flex;
+    padding: 50px 120px;
+}
+
+.footer_contents {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    gap: 30px;
+}
+
+.footer_link {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    font-size: small;
+}
+
+.footer_contents .dropdown__container {
+    width: 115px;
+    height: 55px;
+    border: 1px solid #757575;
+    color: #757575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.676);
+    padding: 10px;
+    border-radius: 5px;
+    /* outline: 2px solid white; */
+}
+
+.dropdown__container>.language__drop__down {
+    color: #757575;
+    background: transparent;
+    border: none;
+}

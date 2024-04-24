@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="SignIn.css">
+    <!-- add icon link -->
+    <link rel="icon" href="assets/Netflix_Icon.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="assets/Netflix-logo.png" alt="logo" width="200px"></a>
+    </header>
+    <aside>
+        <div class="signin_box">
+            <big>
+                <h1 style="color: white">Sign In</h1>
+            </big>
+            <br>
+            <form action="">
+                <label for="email_id">
+                    <div class="email_pass_div">
+                        <p>Email or phone number</p>
+                        <input id="email_id" class="email_pass" type="text" required placeholder="Enter email or phone number">
+                    </div>
+                </label>
+
+                <label for="pwd">
+                    <div class="email_pass_div">
+                        <p>Password</p>
+                        <input id="pwd" class="email_pass" type="password" required placeholder="Enter password">
+                    </div>
+                </label>
+
+                <label for="sign_btn">
+                    <div class="signin_div">
+                        <button type="submit" id="sign_btn">Sign In</button>
+                    </div>
+                </label>
+
+                <div class="form-help">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                    <a href="#">Need help?</a>
+                </div>
+
+                <p style="margin-bottom: 10px;">New to Netflix? 
+                    <a href="Home.html"><big style="color: white;">Sign up now.</big></a>
+                </p>
+                <small>
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#"
+                        style="color: rgb(35, 35, 220);">Learn more.</a>
+                </small>
+            </form>
+        </div>
+    </aside>
+    <footer>
+        <div class="footer_contents">
+            <div class="call">
+                <p>Questions? Call
+                    <a class="footer-top-a" href="tel:000-800-919-1694">000-800-919-1694</a>
+                </p>
+            </div>
+
+            <div class="footer_link">
+                <a href="#">FAQ</a>
+                <a href="#">Help Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookies Preferences</a>
+                <a href="#">Corporate Information</a>
+            </div>
+
+            <div class="dropdown__container">
+                <i class="fas fa-globe"></i>
+                <select name="languages" id="languagesSelect" class="language__drop__down">
+                    <option value="english" id="op1" selected>English</option>
+                    <option value="hindi">हिन्दी</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
